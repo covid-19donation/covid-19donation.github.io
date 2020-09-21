@@ -150,7 +150,16 @@ nav {
 	filter: blur(0px);
   transform: translate(-50%, 0%);
 }
-
+.sec-img:after {
+  	position: absolute;
+  	height: 900px;
+  	width: 100%;
+  	background-color: rgba(0,0,0,0.4);
+  	top: 610px;
+  	left: 0;
+  	display: block;
+  	content: "";
+}
 
 .btn-text {
 	display: inline;
@@ -160,7 +169,7 @@ nav {
 	width: 80%;
    	left: 50%;
   	transform: translate(-50%, 0%);
-  	color: #03396c;
+  	color: #fff;
   	margin-top: 890px;
 	font-size: 45px;
 	overflow-wrap: break-word;
@@ -174,7 +183,7 @@ nav {
 .btn-text p {
 margin-top: 100px;
 margin-bottom: 30px;
-  	color: #03396c;
+  	color: white;
 
 
 
@@ -196,7 +205,7 @@ margin-bottom: 30px;
  }
 
  .donatebtn:hover {
- 	color: #FFF;
+ 	color: #03396c;
  	background-color:rgba(255,255,255,0.3);
  	box-shadow: 5px 5px rgba(255,255,255,0.6);
  	transition: box-shadow 400ms;
@@ -208,7 +217,7 @@ margin-bottom: 30px;
  	border: 2px solid #FFF;
  	padding: 10px;
  	text-decoration: none;
- 	color: #03396c;
+ 	color: #fff;
  	cursor: pointer;
  	transition: background-color ease 400ms;
  	font-size: 25px;
@@ -228,7 +237,7 @@ margin-bottom: 30px;
  	border: 2px solid #FFF;
  	padding: 10px;
  	text-decoration: none;
- 	color: #03396c;
+ 	color: #fff;
  	cursor: pointer;
  	transition: background-color ease 400ms;
  	font-size: 18px;

@@ -87,8 +87,7 @@ main h6 {
 	  font-size: 35px;
 	  padding-bottom: 10px;
 	    font-family: franklin gothic, sans-serif;
-
-
+	    margin-top: 10px;
 }
 main p{
   font-size: 20px;
@@ -99,7 +98,7 @@ main p{
 }
 
 main img {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-top: 20px;
 	max-width: 90%;
 }

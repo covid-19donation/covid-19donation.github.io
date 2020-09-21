@@ -117,3 +117,7 @@ nav {
  	box-shadow: 5px 5px #98BDD5;
  	transition: box-shadow 400ms;
  }
+
+ a {
+text-decoration: none;
+ }
