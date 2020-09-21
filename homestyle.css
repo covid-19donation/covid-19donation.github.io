@@ -1,0 +1,255 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*header area*/
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 20vh; 
+	background-color: #03396c;
+	font-family: source sans pro, Helvetica, sans-serif;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}	
+
+
+.title {
+	color: white;
+	letter-spacing: 7px;
+	font-size: 45px;
+	padding-left: 15px;
+	line-height: 60px;
+	padding-top: 10px;
+	font-weight: bolder;
+
+}
+
+.title p {
+	padding-top: 0px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	font-style: italic;
+	line-height: 35px;
+	letter-spacing: 2px;
+	font-weight: normal;
+
+}
+
+.nav-links {
+	display: inline;
+	width: 15%;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.nav-links li {
+	list-style: none;
+}
+
+.nav-links a {
+	color: white;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 580px) {
+	.nav-links a {
+		font-size: 18px;
+	}
+
+}
+.nav-links a:hover {
+	color: #9dcce7;
+}
+/*main part*/
+.body-text {
+	display: inline;
+  	position: absolute;
+ 	text-align: center;
+  	z-index: 2;
+	width: 70%;
+   	left: 50%;
+  	transform: translate(-50%, 0%);
+  	margin: auto;
+  	color: #fff;
+  	font-style: italic;
+  	padding-top: 280px;
+	font-size: 48px;
+	  overflow-wrap: break-word;
+	  margin-bottom: 20px;
+	  font-weight: bold;
+	  line-height: 65px;
+	  font-family: franklin gothic, source sans pro, sans-serif;
+}
+
+
+@media only screen and (max-width: 895px) {
+	.body-text {
+		width: 80%;
+	  	padding-top: 270px;
+		font-size: 45px;
+	}
+
+}
+
+@media only screen and (max-width: 580px) {
+	.body-text {
+		width: 80%;
+	  	padding-top: 270px;
+		font-size: 40px;
+	}
+
+}
+
+.bg-img img{
+	margin-top: 110px;
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	object-position: 0% 40%;
+	display: inline;
+  position: absolute;
+ text-align: center;
+ opacity: 85%;
+  z-index: 0;
+   left: 50%;
+	filter: blur(0px);
+  transform: translate(-50%, 0%);
+}
+
+.bg-img:after {
+  	position: absolute;
+  	height: 610px;
+  	width: 100%;
+  	background-color: rgba(0,0,0,0.4);
+  	top: 0;
+  	left: 0;
+  	display: block;
+  	content: "";
+}
+
+
+.sec-img img{
+	margin-top: 610px;
+	width: 100%;
+	height: 900px;
+	object-fit: cover;
+	object-position: 50% 0%;
+	display: inline;
+  position: absolute;
+ text-align: center;
+ opacity: 95%;
+  z-index: 0;
+   left: 50%;
+	filter: blur(0px);
+  transform: translate(-50%, 0%);
+}
+
+
+.btn-text {
+	display: inline;
+  	position: absolute;
+ 	text-align: center;
+  	z-index: 2;
+	width: 80%;
+   	left: 50%;
+  	transform: translate(-50%, 0%);
+  	color: #03396c;
+  	margin-top: 890px;
+	font-size: 45px;
+	overflow-wrap: break-word;
+	font-weight: bold;
+	font-family: franklin gothic, source sans pro, Helvetica, sans-serif;
+	color: white;
+}
+
+
+
+.btn-text p {
+margin-top: 100px;
+margin-bottom: 30px;
+  	color: #03396c;
+
+
+
+}
+
+
+
+ .donatebtn {
+ 	border: 2px solid #FFF;
+ 	padding: 10px;
+ 	margin-bottom: 80px;
+ 	text-decoration: none;
+ 	color: white;
+ 	cursor: pointer;
+ 	transition: background-color ease 400ms;
+ 	font-size: 25px;
+ 	font-weight: bold;
+ 	font-style: normal;
+ }
+
+ .donatebtn:hover {
+ 	color: #FFF;
+ 	background-color:rgba(255,255,255,0.3);
+ 	box-shadow: 5px 5px rgba(255,255,255,0.6);
+ 	transition: box-shadow 400ms;
+ }
+
+
+
+ .learnbtn {
+ 	border: 2px solid #FFF;
+ 	padding: 10px;
+ 	text-decoration: none;
+ 	color: #03396c;
+ 	cursor: pointer;
+ 	transition: background-color ease 400ms;
+ 	font-size: 25px;
+ 	 	font-weight: bold;
+ 	 	margin-bottom: 30px;
+
+ }
+
+ .learnbtn:hover {
+ 	color: #03396c;
+ 	background-color:rgba(255,255,255,0.3);
+ 	box-shadow: 5px 5px rgba(255,255,255,0.6);
+ 	transition: box-shadow 400ms;
+ }
+
+.otherweb {
+ 	border: 2px solid #FFF;
+ 	padding: 10px;
+ 	text-decoration: none;
+ 	color: #03396c;
+ 	cursor: pointer;
+ 	transition: background-color ease 400ms;
+ 	font-size: 18px;
+ 	font-weight: normal;
+ 	margin: 5px;
+ }
+
+
+ .otherweb:hover {
+ 	color: #03396c;
+ 	background-color:rgba(255,255,255,0.3);
+ 	box-shadow: 5px 5px rgba(255,255,255,0.6);
+ 	transition: box-shadow 400ms;
+ }
+
+
+
+
+
+
+
+
+
+
